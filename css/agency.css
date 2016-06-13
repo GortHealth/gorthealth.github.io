@@ -413,7 +413,6 @@ section h3.section-subheading {
     height: 80px;
     position: absolute;
     z-index: 100;
-    background-color: #13938e;
     color: #fff;
     border-radius: 100%;
     border: 7px solid #f1f1f1;
@@ -762,4 +761,12 @@ content:"";
 display:block;
 height:50px; /* fixed header height*/
 margin:-50px 0 0; /* negative fixed header height */
+}
+
+#surveylink {
+  background-color: #13938e
+}
+
+#surveylink:hover{
+    background-color: #94d3c2
 }
