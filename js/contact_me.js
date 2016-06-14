@@ -11,6 +11,9 @@ $(function() {
             var name = $("input#name").val();
             var email = $("input#email").val();
             var message = $("textarea#message").val();
+            var _cc = "kinlyinfo@gmail.com";
+            var _gotcha = $("input#formspree-gotcha").val();
+            var _subject = "Kinly Website Inquiry";
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
@@ -19,11 +22,13 @@ $(function() {
             $.ajax({
                 url: 'https://formspree.io/info@kinly.io',
             		method: 'POST',
-            		data: $(this).serialize(),
             		dataType: 'json',
                 data: {
+                    _subject: _subject,
                     name: name,
                     email: email,
+                    _cc: _cc,
+                    _gotcha: _gotcha,
                     message: message
                 },
                 success: function() {
@@ -32,7 +37,7 @@ $(function() {
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-success')
-                        .append("<strong>Your message has been sent. </strong>");
+                        .append("<strong>Thank you! Your message has been sent. </strong>");
                     $('#success > .alert-success')
                         .append('</div>');
 
