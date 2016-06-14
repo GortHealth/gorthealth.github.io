@@ -207,7 +207,7 @@ fieldset[disabled] .btn-xl.active {
         transition: all .3s
     }
     .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px
+        border-radius: 3px;
     }
     .navbar-default.navbar-shrink {
         background-color: #231f20;
@@ -287,7 +287,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
     section {
-        padding: 150px 0
+        padding: 100px 0
     }
 }
 .service-heading {
@@ -755,7 +755,7 @@ body {
     border-color: #231f20
 }
 
-.sponsors:before {
+.container:before {
 content:"";
 display:block;
 height:50px; /* fixed header height*/
