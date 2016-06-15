@@ -755,7 +755,7 @@ body {
     border-color: #231f20
 }
 
-.container:before {
+section:before {
 content:"";
 display:block;
 height:50px; /* fixed header height*/
