@@ -724,9 +724,8 @@ body {
     webkit-tap-highlight-color: #13938e
 }
 
-#sponsors {
-  padding-top: 60px;
-  padding-bottom: 20px
+#team {
+  padding-bottom: 50px;
 }
 
 #survey {
@@ -755,11 +754,12 @@ body {
     border-color: #231f20
 }
 
+aside:before,
 section:before {
 content:"";
-display:block;
+display:inline-block;
 height:50px; /* fixed header height*/
-margin:-50px 0 0; /* negative fixed header height */
+/*margin:-50px 0 0; /* negative fixed header height */*/
 }
 
 #surveylink {
@@ -767,5 +767,9 @@ margin:-50px 0 0; /* negative fixed header height */
 }
 
 #surveylink:hover{
-    background-color: #94d3c2
+  background-color: #94d3c2
+}
+
+#sponsors-subheading {
+  text-align: center
 }
