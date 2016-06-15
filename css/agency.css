@@ -604,7 +604,8 @@ footer span.copyright {
     line-height: 40px;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    text-transform: none
+    text-transform: none;
+    color: #fff
 }
 footer ul.quicklinks {
     margin-bottom: 0;
@@ -768,4 +769,18 @@ body {
 
 .custom-fa {
   font-size: 4.4em
+}
+
+#contact {
+  padding-bottom: 0px
+}
+
+#fa-footer {
+  background-color: #13938e;
+  color: #fff
+}
+
+#fa-footer:hover {
+  background-color: #94d3c2;
+  color: #fff
 }
