@@ -731,7 +731,9 @@ body {
 }
 
 #survey {
-  background: #94d3c2
+  background: #94d3c2;
+  padding-top: 250px;
+  padding-bottom: 250px
 }
 
 .btn-survey {
