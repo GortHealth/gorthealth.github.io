@@ -804,3 +804,7 @@ body {
 .btn-circle:hover {
   color: #13938e;
 }
+
+#about {
+  padding-bottom: 200px
+}
