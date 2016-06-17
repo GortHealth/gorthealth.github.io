@@ -3,7 +3,7 @@ body {
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 .text-muted {
-    color: #777
+    color: #666
 }
 .text-primary {
     color: #13938e
@@ -207,7 +207,7 @@ fieldset[disabled] .btn-xl.active {
         transition: all .3s
     }
     .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px
+        border-radius: 3px;
     }
     .navbar-default.navbar-shrink {
         background-color: #231f20;
@@ -244,8 +244,8 @@ header .intro-text .intro-heading {
     font-family: "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     /*font-weight: 700;*/
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 40px;
     margin-bottom: 25px
 }
 @media (min-width: 768px) {
@@ -264,8 +264,8 @@ header .intro-text .intro-heading {
         font-family: "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
         /*font-weight: 700;*/
-        font-size: 75px;
-        line-height: 75px;
+        font-size: 60px;
+        line-height: 60px;
         margin-bottom: 50px
     }
 }
@@ -287,7 +287,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
     section {
-        padding: 150px 0
+        padding: 100px 0
     }
 }
 .service-heading {
@@ -503,7 +503,7 @@ section h3.section-subheading {
         line-height: 26px
     }
     .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 20px 20px
+        padding: 0 30px 20px
     }
 }
 @media (min-width: 1200px) {
@@ -598,13 +598,15 @@ section#contact .text-danger {
 }
 footer {
     padding: 25px 0;
+    padding-top: 75px;
     text-align: center
 }
 footer span.copyright {
     line-height: 40px;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    text-transform: none
+    text-transform: none;
+    color: #fff
 }
 footer ul.quicklinks {
     margin-bottom: 0;
@@ -619,11 +621,11 @@ ul.social-buttons {
 ul.social-buttons li a {
     display: block;
     background-color: #231f20;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 100%;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 30px;
     color: #fff;
     outline: 0;
     -webkit-transition: all .3s;
@@ -724,13 +726,14 @@ body {
     webkit-tap-highlight-color: #13938e
 }
 
-#sponsors {
-  padding-top: 60px;
-  padding-bottom: 20px
+#team {
+  padding-bottom: 50px;
 }
 
 #survey {
-  background: #94d3c2
+  background: #94d3c2;
+  padding-top: 250px;
+  padding-bottom: 250px
 }
 
 .btn-survey {
@@ -755,17 +758,53 @@ body {
     border-color: #231f20
 }
 
-.sponsors:before {
-content:"";
-display:block;
-height:50px; /* fixed header height*/
-margin:-50px 0 0; /* negative fixed header height */
-}
-
 #surveylink {
   background-color: #13938e
 }
 
 #surveylink:hover{
-    background-color: #94d3c2
+  background-color: #94d3c2
+}
+
+#sponsors-subheading {
+  text-align: center
+}
+
+.custom-fa {
+  font-size: 4.4em
+}
+
+#contact {
+  padding-bottom: 0px
+}
+
+#fa-footer {
+  background-color: #13938e;
+  color: #fff
+}
+
+#fa-footer:hover {
+  background-color: #94d3c2;
+  color: #fff
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border-radius: 100%!important;
+    font-size: 40px;
+    color: #fff;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover {
+  color: #13938e;
+}
+
+#about {
+  padding-bottom: 200px
 }

@@ -88,9 +88,11 @@
       <div class="parallax-window" data-parallax="scroll" data-image-src="img/header-bg.jpg">
         <div class="container">
             <div class="intro-text">
-                <div class="intro-heading">KINLY</div>
+                <div class="intro-heading">Welcome to KINLY</div>
                 <div class="intro-lead-in">Your family on channel three!</div>
-                <a href="#about" class="page-scroll btn btn-xl">About</a>
+                <a href="#about" class="btn btn-circle page-scroll">
+                  <i class="fa fa-angle-double-down animated"></i>
+                </a>
             </div>
         </div>
       </div>
@@ -107,42 +109,33 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
+                    <span class="fa-stack custom-fa">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-group fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Family</h4>
+                    <h4 class="service-heading">Engaging</h4>
                     <p class="text-muted">
-                      Kinly is a web based app that connects families to their elderly loved ones without having to
-                      learn new technologies. Our mission is  reduce social isolation among seniors by making family
-                      engagement easier than ever. Kinly allows families to upload text, photo & video content onto a
-                      family channel accessible from the senior’s television.
+                      Help your elderly loved one feel like they’re never left behind by uploading pictures from birthdays, graduations, weddings, and other important events.
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
+                    <span class="fa-stack custom-fa">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-clock-o fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">The Elderly</h4>
+                    <h4 class="service-heading">Convenient</h4>
                     <p class="text-muted">
-                      At Kinly we understand it can be difficult for your elderly loved one to learn to use new devices
-                      and tech. That’s why we’ve made social engagement accessible in a format familiar to almost every
-                      generation: the television. Staying connected is as easy as using a remote. Seniors can tune into
-                      the family channel any time to get back to being engaged in family life.
+                      Communicate at a time convenient for you. Share content from multiple devices. Stay connected with family no matter how far away.
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
+                    <span class="fa-stack custom-fa">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-heartbeat fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-universal-access fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Healthcare Providers</h4>
+                    <h4 class="service-heading">Accessible</h4>
                     <p class="text-muted">
-                      We made Kinly plug & play. Since it’s compatible for every television and remote, all you have to
-                      do is follow the pre-installed instructions & it’s good to go! Everyone has their own way of doing
-                      things. That’s why we give family members complete control over what content to share and how it
-                      appears on your elderly loved one’s television.
+                      Set up quickly and easily. Upload text, pictures, & video to a page easily optimized for your elderly loved one. Manage changes remotely.
                     </p>
                 </div>
             </div>
@@ -202,11 +195,9 @@
                             </div>
                         </li>
                         <li>
-                            <a class="page-scroll" href=".sponsors">
                               <div class="timeline-image">
                                   <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
                               </div>
-                            </a>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>April 2016</h4>
@@ -365,25 +356,30 @@
                 </div>
             </div> -->
         </div>
-    </section>
-
-    <!-- Sponsors Aside -->
-      <aside class="sponsors">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-6 col-sm-6">
-                      <a href="http://innovationfactory.ca">
-                          <img src="img/logos/Inno_Fact_logo.jpg" class="img-responsive img-centered" alt="">
-                      </a>
-                  </div>
-                  <div class="col-md-6 col-sm-6">
-                      <a href="http://preaccelerator.ca">
-                          <img src="img/logos/cossette_logo.jpg" class="img-responsive img-centered" alt="">
-                      </a>
+        <!-- Sponsors Aside -->
+          <aside id="sponsors" class="bg-light-gray">
+              <div class="container">
+                  <h4 class="subheading" id="sponsors-subheading">Our Partners</h4>
+                    <br>
+                  <div class="row">
+                    <div class="col-md-2 col-sm-2">
+                    </div>
+                      <div class="col-md-4 col-sm-4">
+                          <a href="http://innovationfactory.ca">
+                              <img src="img/logos/Inno_Fact_logo.jpg" class="img-responsive img-centered" alt="">
+                          </a>
+                      </div>
+                      <div class="col-md-4 col-sm-4">
+                          <a href="http://preaccelerator.ca">
+                              <img src="img/logos/cossette_logo.jpg" class="img-responsive img-centered" alt="">
+                          </a>
+                      </div>
+                    <div class="col-md-2 col-sm-2">
+                    </div>
                   </div>
               </div>
-          </div>
-      </aside>
+          </aside>
+    </section>
 
     <!-- Survey Section -->
     <section id="survey">
@@ -473,39 +469,44 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <input type="submit" value="Send Message" class="btn btn-xl"></input>
+                                <input type="submit" value="Send" class="btn btn-xl"></input>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <span class="copyright">Copyright &copy; Kinly 2016</span>
+                    </div>
+                    <div class="col-md-6">
+                    </div>
+                    <div class="col-md-3">
+                    </div>
+                    <div class="col-md-1">
+                        <ul class="list-inline social-buttons">
+                            <li>
+                              <a href="https://twitter.com/KinlyCanada" id="fa-footer"><i class="fa fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="col-md-4">
+                        <ul class="list-inline quicklinks">
+                            <li><a href="#">Privacy Policy</a>
+                            </li>
+                            <li><a href="#">Terms of Use</a>
+                            </li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+        </footer>
     </section>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Kinly 2016</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li>
-                          <a href="https://twitter.com/KinlyCanada"><i class="fa fa-twitter"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
-                </div> -->
-            </div>
-        </div>
-    </footer>
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
