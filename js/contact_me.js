@@ -11,7 +11,7 @@ $(function() {
             var name = $("input#name").val();
             var email = $("input#email").val();
             var message = $("textarea#message").val();
-            var _cc = "kinlyinfo@gmail.com";
+            var _cc = "infokinly@gmail.com";
             var _gotcha = $("input#formspree-gotcha").val();
             var _subject = "Kinly Website Inquiry";
             var firstName = name; // For Success/Failure Message
