@@ -787,3 +787,20 @@ body {
   background-color: #94d3c2;
   color: #fff
 }
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border-radius: 100%!important;
+    font-size: 40px;
+    color: #fff;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover {
+  color: #13938e;
+}
