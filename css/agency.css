@@ -97,13 +97,15 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
     color: #fff;
     background-color: #13938e;
-    border-color: #13938e;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 3px;
     font-size: 18px;
-    padding: 20px 40px
+    padding: 20px 40px;
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -112,7 +114,6 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
     color: #fff;
     background-color: #94d3c2;
-    border-color: #94d3c2
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -168,7 +169,10 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff
+    color: #fff;
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
@@ -751,13 +755,15 @@ body {
 .btn-survey {
     color: #fff;
     background-color: #13938e;
-    border-color: #13938e;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 3px;
     font-size: 18px;
-    padding: 20px 40px
+    padding: 20px 40px;
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
 }
 
 .btn-survey:hover,
@@ -767,11 +773,13 @@ body {
 .open .dropdown-toggle.btn-xl {
     color: #fff;
     background-color: #231f20;
-    border-color: #231f20
 }
 
 #surveylink {
-  background-color: #13938e
+  background-color: #13938e;
+  -webkit-transition: background-color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out;
 }
 
 #surveylink:hover{
@@ -808,9 +816,9 @@ body {
     border-radius: 100%!important;
     font-size: 40px;
     color: #fff;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
 }
 
 .btn-circle:hover {
