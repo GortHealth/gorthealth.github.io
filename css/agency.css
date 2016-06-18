@@ -149,12 +149,6 @@ fieldset[disabled] .btn-xl.active {
     color: #13938e;
     font-family: "Gill Sans", "Helvetica Neue", Helvetica, Arial, cursive
 }
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
-    color: #94d3c2
-}
 .navbar-default .navbar-collapse {
     border-color: rgba(255, 255, 255, .02)
 }
@@ -228,6 +222,12 @@ fieldset[disabled] .btn-xl.active {
       width: 3rem;
       float: left
     }
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #94d3c2
 }
 header {
     /*background-image: url(../img/header-bg.jpg);
