@@ -832,3 +832,16 @@ body {
 #love-to-hear {
   color: #999
 }
+
+#bloglink {
+  border-radius: 3px;
+  background-color: rgba(19,147,142,0.5)
+}
+
+#bloglink:hover {
+    color: #fff;
+    background-color: rgba(148,211,194,0.5);
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out
+}
