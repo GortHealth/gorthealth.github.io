@@ -845,3 +845,11 @@ body {
     -moz-transition: background-color .3s ease-in-out;
     transition: background-color .3s ease-in-out
 }
+
+#introhead {
+  text-shadow: 1px 1px 1px black
+}
+
+#introsubhead {
+  text-shadow: 1px 1px 1px black
+}
