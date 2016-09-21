@@ -9,10 +9,8 @@ KinlyStatic is a landing page for Kinly while the project is in development.
 
 **Ariel Zohar** - *Healthcare Professional / Research Lead*
 
-**Bliss Man** - *Full-Stack Developer / Hardware Development Lead*
+**Bliss Man** - *Full-Stack Developer / Back-End & Hardware Development Lead*
 
 **Carlos Lozano** - *Full-Stack Developer / Business & Marketing Lead*
 
-**Filip Stankovic** - *Full-Stack Developer / Architecture & Back-End Lead*
-
-**Frances Conley-Wood** - *Full-Stack Developer / UX & Front-End Lead*
+**Filip Stankovic** - *Full-Stack Developer / Front-End Development Lead*
