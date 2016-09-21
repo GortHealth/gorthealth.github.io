@@ -835,12 +835,13 @@ body {
 
 #bloglink {
   border-radius: 3px;
-  background-color: rgba(19,147,142,0.5)
+  color: #13938e;
+  background-color: #fff;
 }
 
 #bloglink:hover {
     color: #fff;
-    background-color: rgba(148,211,194,0.5);
+    background-color: #13938e;
     -webkit-transition: background-color .3s ease-in-out;
     -moz-transition: background-color .3s ease-in-out;
     transition: background-color .3s ease-in-out
