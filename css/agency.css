@@ -799,20 +799,6 @@ body {
   color: #999
 }
 
-#bloglink {
-  border-radius: 3px;
-  color: #13938e;
-  background-color: #fff;
-}
-
-#bloglink:hover {
-    color: #fff;
-    background-color: #13938e;
-    -webkit-transition: background-color .3s ease-in-out;
-    -moz-transition: background-color .3s ease-in-out;
-    transition: background-color .3s ease-in-out
-}
-
 .background-overlay {
   width: 100%;
   height: 100%;
