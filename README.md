@@ -1,16 +1,16 @@
 # Kinly
-#### *Your family on channel three!*
+#### *Staying connected with family has never been so simple.*
 
-Kinly is an IoT based web application designed to promote family interaction and reduce the negative impact of social isolation among seniors. The project was created at Hacking Health Hamilton 2016, over an intense 36-hour period. Kinly was the recipient of the top prize "Cossette Health Award" as well as the Hacking Health Hamilton "Best Business Award".
-
-KinlyStatic is a landing page for Kinly while the project is in development.
+Kinly is a web application designed to promote family interaction and reduce the negative impact of social isolation among seniors. The project was created at Hacking Health Hamilton 2016, over an intense 36-hour period. Kinly was the recipient of the top prize "Cossette Health Award" as well as the Hacking Health Hamilton "Best Business Award".
 
 ### Team Members:
 
-**Ariel Zohar** - *Healthcare Professional / Research Lead*
+**Ariel Zohar** - *Research and Healthcare*
 
-**Bliss Man** - *Full-Stack Developer / Back-End & Hardware Development Lead*
+**Bliss Man** - *Software Developer*
 
-**Carlos Lozano** - *Full-Stack Developer / Business & Marketing Lead*
+**Carlos Lozano** - *Business and Marketing*
 
-**Filip Stankovic** - *Full-Stack Developer / Front-End Development Lead*
+**Filip Stankovic** - *Software Developer*
+
+**Sarrah Lal** - *Business and Marketing*
