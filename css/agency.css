@@ -614,8 +614,9 @@ section#contact .text-danger {
 }
 footer {
     padding: 25px 0;
-    padding-top: 75px;
-    text-align: center
+    padding-top: 3rem;
+    text-align: center;
+    background-color: #231f20;
 }
 footer span.copyright {
     line-height: 40px;
